@@ -1,0 +1,8 @@
+/* The area below to the next break will handle styling for the base page and the template.html file */
+body {
+    margin: 0;
+    width: 100vw;
+    height: fit-content;
+    padding-top: 1%;
+    background-color: blueviolet;
+}
