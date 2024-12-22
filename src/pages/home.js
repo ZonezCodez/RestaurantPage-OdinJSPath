@@ -28,15 +28,15 @@ export default function home(){
     hoursBox.setAttribute('id','hoursBox');
     hours.setAttribute('id','hours');
     firstHours.setAttribute('id','firstHours');
-    firstHours.textContent = 'Mon: 9am-8pm';
+    firstHours.textContent = 'Mon: 9am - 8pm';
     secondHours.setAttribute('id','secondHours');
-    secondHours.textContent = 'Tues: 9am-10pm';
+    secondHours.textContent = 'Tues: 9am - 10pm';
     thirdHours.setAttribute('id','thirdHours');
-    thirdHours.textContent = 'Wen: 10am-9pm';
-    fourHours.setAttribute('id','fourHours');
-    fourHours.textContent = 'Thur: 9pm-11pm';
+    thirdHours.textContent = 'Wen: 10am - 9pm';
+    fourHours.setAttribute('id','fourthHours');
+    fourHours.textContent = 'Thur: 9pm - 11pm';
     fiveHours.setAttribute('id','fiveHours');
-    fiveHours.textContent = 'Fri: 11pm-8pm';
+    fiveHours.textContent = 'Fri: 11pm - 8pm';
     // Motobox attributes
     motoBox.setAttribute('id','motoBox');
     innerMoto.setAttribute('id','innerMoto');
