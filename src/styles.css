@@ -223,3 +223,71 @@ footer {
     font-style: italic;
     padding-bottom: 2%;
 }
+
+/* Everything belo until the next break will handle the contact page */
+#insideBx {
+    border: 1px solid gold;
+    width: fit-content;
+    padding: 4%;
+    background-color: aliceblue;
+    opacity: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    box-shadow: 1px 1px gold,1px 1px yellow;
+    width: max-content;
+}
+
+#formBox {
+    display: grid;
+}
+
+#formTitle {
+    font-size: 44px;
+    color: gold;
+    text-shadow: 2px 2px black;
+    width: 100%;
+    text-align: center;
+    padding: 4%;
+}
+
+#nameDesc {
+    font-size: 20px;
+    padding-bottom: 4%;
+    width: max-content;
+}
+
+#nameInput {
+    border-radius: 4px;
+}
+
+#emailDesc {
+    font-size: 20px;
+    padding-bottom: 4%;
+    width: max-content;
+}
+
+#emailInput {
+    border-radius: 4px;
+}
+
+#messageDesc {
+    font-size: 20px;
+    padding-bottom: 4%;
+    width: max-content;
+}
+
+#messageInput {
+    border-radius: 4px;
+}
+
+#submitBtn {
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    background-color: black;
+    color: gold;
+    text-shadow: 1px 1px grey;
+}
